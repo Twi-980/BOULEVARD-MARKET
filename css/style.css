@@ -16,9 +16,6 @@ ul {
 
 button {
     cursor: pointer;
-}
-
-button {
     border: none;
     outline: none;
     background: transparent;
@@ -61,6 +58,11 @@ button {
     column-gap: 25px;
     margin-top: 22px;
     margin-bottom: 22px;
+}
+
+.header__icon {
+    max-width: 20px;
+    width: 100%;
 }
 
 .header__banner {
@@ -109,6 +111,222 @@ button {
     font-weight: 500; 
     text-transform: uppercase; 
 }
+
+.butt__icon {
+    max-width: 16px;
+    width: 100%;
+}
+
+main {
+    background: #151515; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headphones1, .headphones2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    padding: 30px 0 50px;
+}
+
+.headphones2 {
+    padding: 0 0 50px;
+    column-gap: 87px;
+}
+
+.headphones1__desc, .headphones2__desc {
+    color: white; 
+    font-size: 22px; 
+    font-family: 'Montserrat'; 
+    font-weight: 500; 
+}
+
+.headphones1__desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.headphones2__desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.headphones3 {
+    padding: 0 0 80px;
+    display: flex;
+    column-gap: 87px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headphones3__desc1 {
+    text-align: right; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+    font-weight: 700; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.img__headphones1 {
+    max-width: 552px;
+    width: 100%;
+}
+
+.img__headphones2 {
+    max-width: 457px;
+    width: 100%;
+}
+
+.img__headphones3 {
+    display: block;
+    position: relative;
+    max-width: 268px;
+    width: 100%;
+}
+
+.img__headphones3::before, .img__headphones3::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img__headphones3::before {
+    left: -75px;
+}
+
+
+.img__headphones3::after {
+    right: -75px;
+}
+
+
+.headphones3__desc2 {
+    text-align: left; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+    font-weight: 700; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.cards .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 0 0 55px;
+}
+
+.cards__item {
+    background: white; 
+    border-radius: 6px;
+    padding: 15px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__item-title {
+    margin-bottom: 10px;
+    color: black; 
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+    font-weight: 700; 
+    line-height: 100%;
+}
+
+.cards__item-img {
+    margin-bottom: 10px;
+}
+
+.cards__item-desc {
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Montserrat'; 
+    font-weight: 400; 
+    text-transform: uppercase;
+    line-height: 100%; 
+    margin-bottom: 20px;
+}
+
+.cards__item-btn {
+    background: #151515;
+    color: white; 
+    font-size: 16px; 
+    font-family: 'Montserrat'; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    padding: 7px 57px; 
+}
+
+.footer {
+    background: #282828; 
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo-img {
+    max-width: 100px;
+    width: 100%;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.footer__link {
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+    font-weight: 700; 
+    line-height: 100%;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer__icon {
+    max-width: 70px;
+    width: 100%;
+}
+
+
+
+
+
 
 
 
